@@ -40,7 +40,7 @@ public static Logger log = LogManager.getLogger(base.class.getClass());
 		LandingPage landpg = new LandingPage(driver); 
 		//landpg.getLogin().click();
 		
-		Assert.assertEquals(landpg.getTitle().getText(), "FEATURED COURSES123");
+		Assert.assertEquals(landpg.getTitle().getText(), "FEATURED COURSES");
 		log.info("Successfully Validated text Message");
 	}
 	
