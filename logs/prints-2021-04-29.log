@@ -1,0 +1,7 @@
+16:33:26.012 [TestNG-tests-3] INFO  java.lang.Class - Navigated to HomePage
+16:33:31.510 [TestNG-tests-4] INFO  java.lang.Class - Driver is initialized
+16:33:33.338 [TestNG-tests-1] INFO  java.lang.Class - restricteduser1@gmail.com
+16:33:38.129 [TestNG-tests-1] INFO  java.lang.Class - restricteduser2@gmail.com
+18:04:54.647 [main] INFO  java.lang.Class - restricteduser1@gmail.com
+18:05:00.341 [main] INFO  java.lang.Class - restricteduser2@gmail.com
+19:23:40.935 [TestNG-tests-3] INFO  java.lang.Class - Driver is initialized

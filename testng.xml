@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<!--parallel = "tests"-->
+<listeners>
+<listener class-name = "Academy.E2ETest.Listeners"/>
+</listeners>
+
+<test name="Validating Home Page">
+    <classes>
+      	<class name="Academy.E2ETest.HomePage"/>
+	</classes>
+</test>
+	
+<test  name="Validating App Test">
+	<classes>
+      <class name="Academy.E2ETest.AppTest"/>
+	</classes>
+</test>
+	
+<test  name="Validating the title in the page">
+	<classes>
+      <class name="Academy.E2ETest.ValidateTitle"/>
+	</classes>
+</test>
+	
+<test  name ="Validating the Navigations">
+	<classes>
+      <class name ="Academy.E2ETest.ValidateNavigations"/>
+	</classes>
+</test> 
+ 
+</suite> <!-- Suite -->
