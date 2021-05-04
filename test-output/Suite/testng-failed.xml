@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="Academy.E2ETest.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Validating the title in the page(failed)">
+  <test thread-count="5" parallel="tests" name="Validating the text of Courses(failed)">
     <classes>
-      <class name="Academy.E2ETest.ValidateTitle">
+      <class name="Academy.E2ETest.CoursesPage">
         <methods>
-          <include name="validateAppTitle"/>
+          <include name="CoursesPageText"/>
           <include name="initilize"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Academy.E2ETest.ValidateTitle -->
+      </class> <!-- Academy.E2ETest.CoursesPage -->
     </classes>
-  </test> <!-- Validating the title in the page(failed) -->
+  </test> <!-- Validating the text of Courses(failed) -->
 </suite> <!-- Failed suite [Suite] -->

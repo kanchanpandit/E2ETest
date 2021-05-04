@@ -11,6 +11,9 @@ public class LandingPage {
 	By signIn = By.xpath("//a[contains(@href, 'sign_in')]"); 
 	By title = By.cssSelector(".text-center>h2"); 
 	By NavBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a"); 
+	//By Courses = By.xpath("//a[contains(text(), 'Courses')]");
+	//By Coursetext = By.xpath("//span[contains(text(), 'An Academy to ')]"); 
+	
 			
 			
 	public LandingPage(WebDriver driver) {
@@ -36,6 +39,11 @@ public class LandingPage {
 		return driver.findElement(NavBar);
 	}
 	
+	/*
+	 * public WebElement getCourseslist() { return driver.findElement(Courses); }
+	 * 
+	 * public WebElement getCourseText() { return driver.findElement(Coursetext); }
+	 */
 	
 
 }

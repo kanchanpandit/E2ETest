@@ -35,9 +35,12 @@ public class HomePage extends base{
 	{
 		driver.get(prop.getProperty("url"));
 		LandingPage landpg = new LandingPage(driver); 
+		
+		//landpg.getCourseslist().click();
+		
+		
 		LoginPage lognpg=  landpg.getLogin(); 
-
-		 
+	 
 		 lognpg.getEmail().sendKeys(Username);
 		 lognpg.getPassword().sendKeys(Password); 
 		 log.info(text);
@@ -45,6 +48,10 @@ public class HomePage extends base{
 		 ForgotPassword fp = lognpg.forgotPassword(); 
 		 fp.getEmail().sendKeys("dfakdkfjd");
 		 fp.SendMeInstruction().click();
+		 
+		 
+		 //Click on Courses
+		 
 		 
 
 	}

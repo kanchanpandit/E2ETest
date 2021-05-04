@@ -1,4 +1,4 @@
-19:24:03.185 [TestNG-tests-3] INFO  java.lang.Class - Navigated to HomePage
-19:24:04.601 [TestNG-tests-4] INFO  java.lang.Class - Driver is initialized
-19:24:12.735 [TestNG-tests-1] INFO  java.lang.Class - restricteduser1@gmail.com
-19:24:19.015 [TestNG-tests-1] INFO  java.lang.Class - restricteduser2@gmail.com
+20:42:23.007 [TestNG-tests-3] INFO  java.lang.Class - Navigated to HomePage
+20:42:23.150 [TestNG-tests-3] INFO  java.lang.Class - Successfully Validated text Message
+20:42:25.132 [TestNG-tests-1] INFO  java.lang.Class - restricteduser1@gmail.com
+20:42:28.070 [TestNG-tests-1] INFO  java.lang.Class - restricteduser2@gmail.com

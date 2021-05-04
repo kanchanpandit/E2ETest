@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Academy.E2ETest.ValidateTitle">
+      <class name="Academy.E2ETest.HomePage">
         <methods>
-          <include name="validateAppTitle"/>
           <include name="initilize"/>
           <include name="teardown"/>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Academy.E2ETest.ValidateTitle -->
+      </class> <!-- Academy.E2ETest.HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

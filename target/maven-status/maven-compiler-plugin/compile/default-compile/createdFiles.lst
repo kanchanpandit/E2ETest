@@ -1,4 +1,5 @@
 pageObject\ForgotPassword.class
+pageObject\Courses.class
 Academy\E2ETest\App.class
 Academy\E2ETest\base.class
 pageObject\LandingPage.class
